@@ -1,0 +1,264 @@
+:root {
+	/* primary colors */
+	--strongCyan: hsl(171, 66%, 44%);
+	--lightBlue: hsl(233, 100%, 69%);
+	/* Neutral colors */
+	--darkGrayishBlue: hsl(210, 10%, 33%);
+	--grayishBlue: hsl(201, 11%, 66%);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* start HERo */
+
+#hero {
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/bg-header-desktop.png);
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.contentHero {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5%;
+}
+
+.contentHero div h1 {
+	padding-top: 7%;
+	color: var(--darkGrayishBlue);
+	font-weight: bold;
+}
+
+.contentHero div p {
+	padding-top: 5%;
+	color: var(--grayishBlue);
+	font-size: 18px;
+	padding-inline: 16%;
+}
+
+div button {
+	margin-inline: 1rem;
+	border: none;
+	height: 55px;
+	width: 16rem;
+	border-radius: 25px;
+	font-size: 20px;
+	font-size: bold;
+	color: white;
+	cursor: pointer;
+	outline: none;
+}
+
+.IOS {
+	background-color: var(--strongCyan);
+	transition: all 0.3s ease-in-out;
+}
+.IOS:hover {
+	box-shadow: 0px 0px 15px 1px var(--strongCyan);
+}
+
+.MAC {
+	background-color: var(--lightBlue);
+	transition: all 0.3s ease-in-out;
+}
+
+.MAC:hover {
+	box-shadow: 0px 0px 15px 1px var(--lightBlue);
+}
+
+.btnss {
+	margin-top: 2%;
+	justify-content: center;
+	align-items: center;
+}
+
+/* ======= end HERO edit ========= */
+
+/* start PAGE#2 */
+
+.page-2 {
+	height: 100vh;
+	width: 100%;
+}
+
+.page-2 div div h2 {
+	color: var(--darkGrayishBlue);
+	margin-bottom: 3%;
+	font-weight: bold;
+}
+
+.page-2 div div p {
+	padding-inline: 30%;
+	color: var(--grayishBlue);
+	font-size: 18px;
+}
+
+.page2Head,
+.page2P {
+	text-align: center;
+}
+
+.page2Content {
+	margin-top: 4rem;
+}
+
+.page2text {
+	margin-top: 3rem;
+	/* margin-left: 5rem; */
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.page2text div h4 {
+	color: var(--darkGrayishBlue);
+}
+.page2text div span {
+	color: var(--grayishBlue);
+}
+
+.point {
+	margin-bottom: 2rem;
+}
+
+/* ======= end page #2 edit ======= */
+
+/* start page #3 */
+
+.page-3 {
+	margin-top: 5rem;
+	height: 100vh;
+	width: 100%;
+}
+
+.page-3 div div h2 {
+	color: var(--darkGrayishBlue);
+	margin-bottom: 2%;
+	margin-top: 7rem;
+	font-weight: bold;
+}
+
+.page-3 div div p {
+	color: var(--grayishBlue);
+	padding-inline: 30%;
+	font-size: 18px;
+}
+
+.img-container {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* ======= end page #3 ======== */
+
+/* start page #4 */
+
+.page-4 {
+	margin-top: 15rem;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+}
+
+.page-4 div div h2 {
+	color: var(--darkGrayishBlue);
+	font-weight: bold;
+}
+
+.page-4 div div p {
+	color: var(--grayishBlue);
+	font-size: 18px;
+	margin-bottom: 3rem;
+}
+
+.threeCard {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	margin: 3rem 0 5rem;
+}
+
+.threeCard div h4 {
+	padding: 3rem 0 1rem;
+	color: var(--darkGrayishBlue);
+	font-weight: bold;
+}
+
+.threeCard div p {
+	color: var(--grayishBlue);
+	font-size: 18px;
+}
+/* ======== end page #4 ============ */
+
+/* start page #5 */
+
+.page-5 {
+	height: 70vh;
+	width: 100%;
+	text-align: center;
+}
+
+.page-5 div div h2 {
+	color: var(--darkGrayishBlue);
+	margin-bottom: 3%;
+	font-weight: bold;
+}
+
+.page-5 div div p {
+	color: var(--grayishBlue);
+	font-size: 18px;
+	padding-inline: 27%;
+}
+
+/* ========== end page #5 ========= */
+
+/* start footer */
+
+footer {
+	height: 8rem;
+	width: 100%;
+	background-color: rgb(242, 242, 242);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logo-fotr {
+	width: 80px;
+}
+
+.info {
+	width: 40%;
+}
+
+.info span {
+	padding-right: 2rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.info span:hover {
+	color: var(--strongCyan);
+	cursor: pointer;
+}
+
+.social img {
+	padding-inline: 1rem;
+	cursor: pointer;
+}

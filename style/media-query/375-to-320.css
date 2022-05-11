@@ -1,0 +1,56 @@
+@media (min-width: 320px) and (max-width: 380px) {
+	.IOS {
+		margin-bottom: 1rem;
+	}
+	.page-2 div div p {
+		padding-inline: 0;
+	}
+	.m-for-page-2 {
+		margin-block: 20%;
+	}
+	.point {
+		text-align: center;
+	}
+	.m-for-page-4 {
+		margin-top: -38%;
+	}
+
+	.sv-logos {
+		align-items: center;
+	}
+
+	.m-for-page-5 {
+		margin-block: 180%;
+	}
+}
+
+@media (max-width: 320px) {
+	.m-for-page-2 {
+		margin-block: 35%;
+	}
+
+	.m-for-page-3 {
+		margin-block: 110%;
+	}
+
+	.m-for-page-3 div div p {
+		padding-inline: 10%;
+		padding-top: 2rem;
+	}
+
+	.m-for-page-5 {
+		margin-block: 240%;
+	}
+
+	.m-for-page-5 div div p {
+		padding-inline: 10%;
+	}
+
+	.sv-logos {
+		align-items: center;
+	}
+
+	footer {
+		margin-top: 20%;
+	}
+}
